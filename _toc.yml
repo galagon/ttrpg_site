@@ -1,0 +1,9 @@
+format: jb-book
+root: intro
+parts:
+  - caption: About D&D
+  - caption: Examples of Play
+    chapters:
+    - file: play_examples/player_example_1
+  - caption: Resources
+  - caption: Glossary
