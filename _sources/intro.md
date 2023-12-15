@@ -36,7 +36,7 @@ Your character also has a backstory, what happened to them before this adventure
 
 ## Navigating the Site
 
-The “Resources” section (coming soon) explains where you can get the D&D rules and has links to some helpful guides online
+The [“Resources”](resources/core_rules.md) section explains where you can get the D&D rules and has links to some helpful guides online
 +++
 You don’t need to read the [“Examples of Play”](play_examples/play_example_intro.md) section if you don’t want to, it’s an example of what it looks like when people sit down to play the game and contains lessons about some of the different rules
 +++
