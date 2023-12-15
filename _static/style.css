@@ -1,7 +1,23 @@
-p {
+.indent {
+    text-indent: -20px;
+    margin-left: 10px;
 }
 
-blockquote p {
-    text-indent: -20px;
-    margin-left: 10px
+.hidden {
+    color: #ffffff;
+}
+
+.blue-text {
+    color: #2b28c5;
+    font-weight: bolder;
+}
+
+.green-text {
+    color: #3BB143;
+    font-weight: bolder;
+}
+
+.red-text {
+    color: #FF0000;
+    font-weight: bolder;
 }
