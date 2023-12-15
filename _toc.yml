@@ -3,6 +3,7 @@ root: intro
 parts:
   - caption: Examples of Play
     chapters:
+    - file: play_examples/play_example_intro.md
     - file: play_examples/play_example_01.md
   - caption: Glossary
     chapters:
