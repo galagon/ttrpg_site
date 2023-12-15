@@ -1,0 +1,527 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Scene 1 &#8212; Learning Dungeons &amp; Dragons</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'play_examples/play_example_01';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Glossary" href="../glossary.html" />
+    <link rel="prev" title="Welcome to Dungeons and Dragons" href="../intro.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../intro.html">
+                    Welcome to Dungeons and Dragons
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Examples of Play</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Scene 1</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Glossary</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/play_examples/play_example_01.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Scene 1</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lessons">Lessons</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="scene-1">
+<h1>Scene 1<a class="headerlink" href="#scene-1" title="Permalink to this heading">#</a></h1>
+<p><em>back-and-forth of play, skill checks, spells, interacting with NPCs, in-character decisions, and inspiration</em></p>
+</br>
+<div class="indent">
+<p><span class="green-text">Jess:</span> “Ok, Archis and Grunda, when we left off last time you had discovered that Baron Redwine had made a secret deal with a demon lord to betray the Queen of Naradon. You’re currently in his bedchambers where you found the letters proving his guilt in his writing desk. It’s only a matter of time before someone walks in and discovers you. What would you like to do?”</p>
+<p><span class="red-text">Asha:</span> “Grunda wants to smash the baron!”</p>
+<p><span class="blue-text">Karim:</span> “We can’t stop him unless we get out of here alive.”</p>
+<p><span class="red-text">Asha:</span> “Let’s fight our way out!”</p>
+<p><span class="blue-text">Karim:</span> “Hmmm, I feel like that’s too dangerous. Jess, would Archis know how many guards are in this fortress?”</p>
+<p><span class="green-text">Jess:</span> “Maybe - how about you make a skill check to see?”</p>
+<p><span class="blue-text">Karim:</span> “What skill? How about History?”</p>
+<p><span class="green-text">Jess:</span> “Sounds good. It’s not secret information, really, so I’ll set the DC pretty low, let’s say 12.”</p>
+<p><span class="blue-text">Karim:</span> “Great, I have +5 to History.” Karim rolls a 20-sided die and it comes up 11. “11 plus 5 is…16 total.”</p>
+<p><span class="green-text">Jess:</span> “Great, you passed! So, maybe Archis has read some history books about Castle Redwine and knows that it can hold hundreds of soldiers.”</p>
+<p><span class="red-text">Asha:</span> “Let’s take them!”</p>
+<p><span class="blue-text">Karim:</span> “I’d rather not fight a hundred people. We can at least try getting out of here without being detected.”</p>
+<p><span class="green-text"><strong>Jess</strong></span> decides they have been talking long enough and wants to ramp up the tension of the situation to remind them of the danger they’re in. She rolls some meaningless dice behind her DM screen, pretends to count them up, nods solemnly, and then says: “Make a Perception check, both of you.”</p>
+<p><span class="blue-text">Karim:</span> Rolls his d20 again and it comes up 5. “5 plus 1 is…6. Please say you rolled higher, Asha?”</p>
+<p><span class="red-text">Asha:</span> Asha has rolled a 16 and sees that there is a “+3” next to Perception on her character sheet. “16 plus 3 is 19! Grunda has the best hearing!”</p>
+<p><span class="green-text">Jess:</span> “Grunda, all the time you spent hunting elk on the tundra, waiting for the smallest sound to detect your prey, has paid off. You hear boots coming down the corridor in your direction, not too close but they’ll be here any minute.”</p>
+<p><span class="red-text">Asha:</span> “How many sets of boots?”</p>
+<p><span class="green-text">Jess:</span> “A lot. Too many to tell.”</p>
+<p><span class="blue-text">Karim:</span> “Uh oh. Ok, I have the disguise self spell prepared, maybe I change my appearance so I look like the baron?”</p>
+<p><span class="red-text">Asha:</span> “Great idea, but what do I do?”</p>
+<p><span class="blue-text">Karim:</span> “I’m sorry, it says disguise self only works on the person who casts it.”</p>
+<p><span class="red-text">Asha:</span> “That’s fine. Grunda is used to sneaking up on her prey. I have a +4 to Stealth. Hey Jess, what kind of furniture is there in this room?”</p>
+<p><span class="green-text">Jess:</span> “Uhhhhhh…um, a lot of footstools? And a wardrobe?”</p>
+<p><span class="red-text">Asha:</span> “A wardrobe? Perfect, I jump in.”</p>
+<p><span class="green-text">Jess:</span> “And Karim, you want to use that spell? You’ve seen the baron before so you know what he looks like.”</p>
+<p><span class="blue-text">Karim:</span> “Exactly. I pass my hands over my face and my skin changes from purple to light-tan in an instant as my horns and tail disappear. My eyes look out from the baron’s stern, human features.”</p>
+<p><span class="green-text">Jess:</span> “That’s a 1st-level spell, right?”</p>
+<p><span class="blue-text">Karim:</span> “Yes it is.” He marks off on his sheet that he’s used one 1st-level spell slot. “I’ve still got two spell slots left. I’ve got to be careful not to use them up too quickly.”</p>
+<p><span class="green-text">Jess:</span> “Five guards march into the room and look shocked to see you. ‘Sir? Weren’t you just in the dungeons, giving us our orders? How did you get here so quickly?’”</p>
+<p><span class="blue-text">Karim:</span> “Oh no. I didn’t think about that. Ok, ok, let me think…Archis puts on an angry face and storms up to the guard who spoke and says ‘What is the meaning of this, soldier? Who taught you to question your superiors like that? I go where I please in my own castle!’”</p>
+<p><span class="red-text">Asha:</span> “Grunda doesn’t trust Archis to pull this off. She’s gripping the handle of her greataxe, ready to pounce as soon as things get bad.”</p>
+<p><span class="green-text">Jess:</span> “Oh, I forgot, Asha, make a Stealth check to avoid them hearing you in the wardrobe.”</p>
+<p><span class="red-text">Asha:</span> “Sure thing.” Asha rolls a d20 and it comes up 10. “That’s…14 total.”</p>
+<p><span class="green-text">Jess:</span> “They’re distracted by Archis so I’ll say that’s enough to pass. You remain hidden. Now, Karim, give me a Deception check.” In her head Jess decides the DC for this check will be 15 - tricking the guards is going to be tough but possible.</p>
+<p><span class="blue-text">Karim:</span> “Well, I’ve got a +3…” Karim rolls a d20 and it comes up 17 “Sweet! That’s a 20 after I add my bonus for Deception!”</p>
+<p><span class="green-text">Jess:</span> “A dirty 20! The guards stammer, ‘Uh, so sorry Sir, please forgive us!’”</p>
+<p><span class="red-text">Asha:</span> “Now tell them to give us their weapons and jump in the moat!”</p>
+<p><span class="blue-text">Karim:</span> “I don’t think they’d do that, Asha.” Jess nods in agreement. “Instead, I say, ‘I’ve had about enough of you snivelling fools! Go patrol the banquet hall!’”</p>
+<p><span class="green-text">Jess:</span> “‘Right away Sir! Does this mean you no longer want us to question the villagers you had us bring to the dungeon?’”</p>
+<p><strong>Karim and Asha</strong> look at each other.</p>
+<p><span class="red-text">Asha:</span> “We didn’t know about any villagers being taken prisoner before now, did we?”</p>
+<p><strong>Karim and Jess</strong>: “Nope.”</p>
+<p><span class="red-text">Asha:</span> “Shoot. Now we have to go to the dungeons.”</p>
+<p><span class="blue-text">Karim:</span> “No way, we have to get this information to the Queen - if we take a side-trip to the dungeons, we might get caught and then we’ll never make it back.”</p>
+<p><span class="red-text"><strong>Asha, grimacing</strong>:</span> “Sorry dude, but Grunda’s whole family were taken captive by a warlord, remember? I know that we need to get out of here, but there’s no way Grunda is going to leave innocent villagers behind if she thinks she has a chance of saving them.”</p>
+<p><span class="blue-text">Karim:</span> “Ugh. Fine, ok, we’ll go to get the villagers. I guess it wouldn’t be very heroic to leave them behind.”</p>
+<p><span class="green-text">Jess:</span> “That’s some great roleplay, Asha - take a point of inspiration for making a choice that your character would make even though you knew it wasn’t necessarily what you would do in that situation.”</p>
+<p><span class="red-text">Asha:</span> “Yes!” She checks the box on her sheet that says “Inspiration”.</p>
+<p><span class="blue-text">Karim:</span> “Archis says to the guards: ‘No, I want you patrolling the banquet hall! Leave the prisoners to me! No one is to go into the dungeons without my express permission!’”</p>
+<p><span class="green-text">Jess:</span> “You know they’re going to catch on as soon as they run into the real Baron Redwine, right?”</p>
+<p><span class="blue-text">Karim:</span> “Yeah, but this will buy us some time.”</p>
+<p><span class="green-text"><strong>Jess</strong>, nodding:</span> “‘Yes, of course Sir, whatever you say Sir!’ The terrified guards back out, bowing again and again, before they take off down the right corridor leaving you free to take the left hallway down to the dungeons.”</p>
+</div>
+<section id="lessons">
+<h2>Lessons<a class="headerlink" href="#lessons" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>In D&amp;D, the players (Karim and Asha in this case) control the main characters, or “player characters”/“PCs” of the story while the dungeon master/DM (Jess in this case) controls everything else and sets up challenges for them to overcome</p></li>
+<li><p>“Narrative control” - who describes what happens next - switches back and forth between the players and the DM, with the DM describing a situation, the players describing how they react to it, the DM describing how the situation changes as a result of their actions, and so on</p></li>
+<li><p>Karim and Asha only rolled dice (made checks) when there was a chance of success or failure (knowing how many guards would be in the castle, hiding in the wardrobe, etc.); Asha didn’t need to make a roll to jump in the wardrobe and Karim didn’t need to make a roll to cast the disguise self spell, those things just happened because they were easy</p></li>
+<li><p>When a player makes a check, the DM comes up with a number called the DC/difficulty-class based on how hard they think the task is; they may say it out loud or they may keep it to themselves - Jess told Karim that the DC for his History check was 12, but she didn’t say how high they needed to get on their Perception check to hear the guards coming, just that Karim failed and Asha succeeded</p></li>
+<li><p>An easy task may have a DC around 10, a difficult task might be closer to 14 or 15, and a very difficult class might be 18 or even 20!</p></li>
+<li><p>Checks that use one of the skills listed beside your ability scores on your character sheet are called skill checks and are very common</p></li>
+<li><p>The only dice that were rolled were twenty-sided dice - d20s - which are what you use for checks (to determine if you succeed or fail at something); if you’re ever in doubt about what to roll, roll a d20!</p></li>
+<li><p>As a wizard, Karim’s character can cast spells but 1st-level spells like disguise self require magical energy called “spell slots” and he only has a limited number each day, so he has to keep track of how many he’s used</p></li>
+<li><p>Jess’s job is to challenge the players and make sure the world responds appropriately to their actions; it would be unfair of her to have the guards attack the players even though they came up with a good plan and rolled high enough on their skill checks, and it wouldn’t feel realistic if she let them escape the castle without running into any obstacles</p></li>
+<li><p>DMs can choose to give players “inspiration” as a reward for creative thinking or for acting in-character like Asha did - giving inspiration is always the DM’s choice; players can use inspiration to give themselves advantage, which we’ll talk about in the next scene</p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./play_examples"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../intro.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Welcome to Dungeons and Dragons</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../glossary.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Glossary</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lessons">Lessons</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Gabriel Smith
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
