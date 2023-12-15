@@ -5,6 +5,14 @@ parts:
     chapters:
     - file: play_examples/play_example_intro.md
     - file: play_examples/play_example_01.md
+    - file: play_examples/play_example_02.md
+    - file: play_examples/play_example_03.md
+    - file: play_examples/play_example_04.md
+    - file: play/examples/play_example_what_now.md
+  - caption: Resources
+    chapters:
+    - file: resources/core_rules.md
+    - file: resources/help_and_tips.md
   - caption: Glossary
     chapters:
       - file: glossary.md
