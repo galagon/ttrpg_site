@@ -1,6 +1,8 @@
 # Scene 1  
 
-## *back-and-forth of play, skill checks, spells, interacting with NPCs, in-character decisions, and inspiration*  
+*back-and-forth of play, skill checks, spells, interacting with NPCs, in-character decisions, and inspiration*  
+
+<br/>
 
 > **Jess**: “Ok, Archis and Grunda, when we left off last time you had discovered that Baron Redwine had made a secret deal with a demon lord to betray the Queen of Naradon. You’re currently in his bedchambers where you found the letters proving his guilt in his writing desk. It’s only a matter of time before someone walks in and discovers you. What would you like to do?”
 >
