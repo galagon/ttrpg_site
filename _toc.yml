@@ -8,7 +8,7 @@ parts:
     - file: play_examples/play_example_02.md
     - file: play_examples/play_example_03.md
     - file: play_examples/play_example_04.md
-    - file: play/examples/play_example_what_now.md
+    - file: play_examples/play_example_what_now.md
   - caption: Resources
     chapters:
     - file: resources/core_rules.md
